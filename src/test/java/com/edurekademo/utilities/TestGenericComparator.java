@@ -18,6 +18,7 @@ import org.junit.*;
 @SuppressWarnings({"rawtypes","unchecked"})
 
 public class TestGenericComparator
+	//comment
     extends TestCase
 {
         public void initialize(ArrayList myData) { 
