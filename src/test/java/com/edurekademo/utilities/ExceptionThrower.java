@@ -30,6 +30,7 @@ public class ExceptionThrower {
                         LOG.error(new LoggerStackTraceUtil().getErrorMessage(e)); 
                 }
         }
+        //bug 
         
         private void doYYY() { 
                 LOG.error(new LoggerStackTraceUtil().getErrorMessage(new Exception("DEAR")));
